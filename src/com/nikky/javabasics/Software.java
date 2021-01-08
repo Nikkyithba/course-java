@@ -11,6 +11,11 @@ public class Software extends Product{
 
     }
 
+    public Software(){
+        super();
+        count ++;
+    }
+
     public double getVersion() {
         return version;
     }

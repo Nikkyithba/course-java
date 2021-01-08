@@ -1,5 +1,6 @@
 package com.nikky.javabasics;
 
+
 public class Product {
 
     private String code;
@@ -13,6 +14,8 @@ public class Product {
         price=pr;
     }
 
+// this is a no-args constructor
+    public Product(){}
 
 
     public String getCode() {

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class FutureValueAnother {
     public static void main (String[] args) {
 
-
         String choice;
 
         do {
@@ -13,7 +12,7 @@ public class FutureValueAnother {
         System.out.println("\n" +"\n" +" Enter Monthly Investmenet amount");
         double monthlyInvestmentAmount = input.nextDouble();
 
-        System.out.println("Enter the yeary interest rate");
+        System.out.println("Enter the yearly interest rate");
         double yearlyInterestRate = input.nextDouble();
 
         System.out.println("Enter number of years");

@@ -11,6 +11,11 @@ public class Book extends Product{
         count ++;
     }
 
+    public Book(){
+        super();
+        count ++;
+    }
+
     public String getAuthor() {
         return author;
     }
